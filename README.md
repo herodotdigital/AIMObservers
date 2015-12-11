@@ -26,6 +26,17 @@ The notification observer should be used as alternative for `[[NSNotificationCen
 
 ```
 
+#Installation
+
+Use the [CocoaPods](http://github.com/CocoaPods/CocoaPods).
+
+Add to your Podfile
+>`pod 'AIMObservers'`
+and then call
+>`pod install`
+and import 
+>`#import "AIMNotificationObserver.h"`
+
 #Example
 In the example, AIMNotificationObserver is used to change the background of the main view, as respond to a notification (pretty lame usage, but in real life application, you could use notification in a much more complicated way). 
 
