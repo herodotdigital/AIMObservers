@@ -32,9 +32,13 @@ Use the [CocoaPods](http://github.com/CocoaPods/CocoaPods).
 
 Add to your Podfile
 >`pod 'AIMObservers'`
+
 and then call
+
 >`pod install`
+
 and import 
+
 >`#import "AIMNotificationObserver.h"`
 
 #Example
