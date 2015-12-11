@@ -1,5 +1,5 @@
-# Observers
-Notification observers used by AIM team
+# AIMObservers
+Notifications observer used by AIM team
 
 The notification observer should be used as alternative for `[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(getNotification:) name:name object:sender]`. It is guaranteed that observer is removed when the object is deallocated.
 
