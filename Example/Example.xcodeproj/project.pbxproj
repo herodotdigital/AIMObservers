@@ -16,6 +16,8 @@
 		D9BE2FC31C1B1770005157A6 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE2FC21C1B1770005157A6 /* ExampleTests.m */; };
 		D9BE2FCF1C1B1784005157A6 /* AIMNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE2FCE1C1B1784005157A6 /* AIMNotificationObserver.m */; };
 		D9BE2FD01C1B1784005157A6 /* AIMNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE2FCE1C1B1784005157A6 /* AIMNotificationObserver.m */; };
+		D9BE2FF61C1C2AD9005157A6 /* AIMObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE2FF51C1C2AD9005157A6 /* AIMObserver.m */; };
+		D9BE2FF71C1C2AD9005157A6 /* AIMObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE2FF51C1C2AD9005157A6 /* AIMObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D9BE2FC41C1B1770005157A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9BE2FCD1C1B1784005157A6 /* AIMNotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIMNotificationObserver.h; path = ../../AIMNotificationObserver.h; sourceTree = "<group>"; };
 		D9BE2FCE1C1B1784005157A6 /* AIMNotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIMNotificationObserver.m; path = ../../AIMNotificationObserver.m; sourceTree = "<group>"; };
+		D9BE2FF41C1C2AD9005157A6 /* AIMObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIMObserver.h; path = ../../AIMObserver.h; sourceTree = "<group>"; };
+		D9BE2FF51C1C2AD9005157A6 /* AIMObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIMObserver.m; path = ../../AIMObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				D9BE2FAF1C1B1770005157A6 /* ViewController.m */,
 				D9BE2FCD1C1B1784005157A6 /* AIMNotificationObserver.h */,
 				D9BE2FCE1C1B1784005157A6 /* AIMNotificationObserver.m */,
+				D9BE2FF41C1C2AD9005157A6 /* AIMObserver.h */,
+				D9BE2FF51C1C2AD9005157A6 /* AIMObserver.m */,
 				D9BE2FB11C1B1770005157A6 /* Main.storyboard */,
 				D9BE2FB41C1B1770005157A6 /* Assets.xcassets */,
 				D9BE2FB61C1B1770005157A6 /* LaunchScreen.storyboard */,
@@ -220,6 +226,7 @@
 				D9BE2FB01C1B1770005157A6 /* ViewController.m in Sources */,
 				D9BE2FAD1C1B1770005157A6 /* AppDelegate.m in Sources */,
 				D9BE2FCF1C1B1784005157A6 /* AIMNotificationObserver.m in Sources */,
+				D9BE2FF61C1C2AD9005157A6 /* AIMObserver.m in Sources */,
 				D9BE2FAA1C1B1770005157A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BE2FF71C1C2AD9005157A6 /* AIMObserver.m in Sources */,
 				D9BE2FD01C1B1784005157A6 /* AIMNotificationObserver.m in Sources */,
 				D9BE2FC31C1B1770005157A6 /* ExampleTests.m in Sources */,
 			);
