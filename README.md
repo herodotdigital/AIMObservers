@@ -1,5 +1,5 @@
 # AIMObservers
-Notifications and KVO observers used by AIM team
+Notifications and KVO observers used by the AIM team
 
 `AIMNotificationObserver` is a notification observer that should be used as alternative for `[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(getNotification:) name:name object:sender]`.  `AIMObserver` is a KVO observer that should be used as an alternative for  `[obj addObserver:self forKeyPath:keyPath options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld|NSKeyValueObservingOptionInitial context:NULL];`. It is guaranteed that observer is removed when the object is deallocated.
 
